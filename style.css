@@ -1,0 +1,54 @@
+html, body{
+    background: orange;
+    width: 100vw;
+    height: 100vh;
+    margin:0; /* Remove default margin */
+    overflow: hidden; /* Prevent scrolling */
+}
+.container h1{
+   Width: auto;
+   height: auto;
+   position: absolute;
+   top: 5%;
+   left: 30%;
+   font-size: 50px;
+   background: linear-gradient(to right,#f5da2dcb, #0375D6, #F313A9 );
+   -webkit-background-clip: text;
+   color: transparent;
+   
+}
+
+#getJokeBtn{
+    cursor: pointer;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20%;
+    color: blue;
+    border-color: lightblue;
+    box-shadow: 3px solid rgba(255,255,255, .11);
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
+
+#jokeContainer{
+
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right,#F5DB2D, #0375D6, #F313A9 );  
+    color: #fff; /* Change text color */
+    font-size: 20px; /* Change font size */
+    font-family: 'Poppins', sans-serif; /* Change font family */
+    text-align: center; /* Center text horizontally */
+    line-height: 5; /* Adjust line spacing */
+    padding: 20px; /* Add some padding */
+    margin: 20px;
+    border-radius: 30%;
+}
+
+
+
